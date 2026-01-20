@@ -1,4 +1,4 @@
-class irdata < Formula
+class Irdata < Formula
   desc "github.com/popmonkey/irdata tools"
   homepage "https://github.com/popmonkey/irdata"
   version "0.6.3"
@@ -7,7 +7,7 @@ class irdata < Formula
   sha256 "fad16e97e432e546716904e6738fffc2363197693295cad1a5f81f83aaf2aeb0"
 
   def install
-    bin.install "bin/irfetch-osx.universal" => "bin/irfetch"
+    bin.install "irfetch.osx-universal" => "irfetch"
   end
 
   test do
